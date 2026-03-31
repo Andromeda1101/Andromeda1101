@@ -22,7 +22,7 @@ jobs:
 
           filename: github-metrics.svg
           committer_branch: main
-          committer_token: ${{ github.token }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
           template: classic
 
