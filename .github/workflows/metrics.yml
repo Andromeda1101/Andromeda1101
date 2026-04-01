@@ -34,10 +34,9 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          plugin_repositories: true
-          plugin_repositories_pinned: true
-          plugin_repositories_order: pinned
-
+          plugin_repositories: yes
+          plugin_repositories_pinned: yes       
+          
           plugin_calendar: yes
           plugin_calendar_limit: 0
 
